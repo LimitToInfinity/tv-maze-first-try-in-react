@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 10rem;
+}
+
+.show-card {
+    box-sizing: border-box;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px grey;
+}
+
+.show-card:hover {
+    transform: scale3d(1.5, 1.5, 1.5);
+    box-shadow: 0 0 3px black;
+}
